@@ -1,1 +1,1 @@
-# MNIST Digit API.
+# MNIST Digit API
