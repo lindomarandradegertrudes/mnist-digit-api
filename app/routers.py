@@ -14,4 +14,9 @@ def predict(dados: PredictRequest, request: Request):
     modelo = getattr(request.app.state, "modelo", None)
     if modelo is None:
         raise HTTPException(status_code=503, detail="Modelo não carregado.")
-    return prever(modelo, dados.pixels)
+    if max(dados.pixels) == 0:
+        raise HTTPException(status_code=400, detail="Imagem em branco: todos os pixels são zero.")
+    try:
+        return prever(modelo, dados.pixels)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Erro interno ao realizar a previsão.")
