@@ -281,9 +281,9 @@ Cada arquivo de entrada deve respeitar o formato esperado pela API, com 784 valo
 
 ## 12. Vídeo de apresentação do projeto
 
-Esta seção será utilizada para disponibilizar o vídeo de apresentação do projeto, demonstrando a execução da API, o acesso à documentação interativa e um exemplo de classificação de dígito manuscrito.
+Veja abaixo o vídeo de apresentação do projeto, demonstrando a execução da API, o acesso à documentação interativa e um exemplo de classificação de dígito manuscrito.
 
-**Link do vídeo:** `[Adicionar aqui o link do vídeo]`
+**Link do vídeo:** https://drive.google.com/file/d/1iU9NKHT_jrvgKx96y-xXAULWPkDTihR2/view?usp=drive_link
 
 ## 13. Considerações finais
 
