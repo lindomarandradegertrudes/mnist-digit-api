@@ -1,0 +1,20 @@
+{
+  "modelo": "MLPClassifier",
+  "arquivo_modelo": "models/mnist_mlp.joblib",
+  "versao_scikit_learn": "1.9.1",
+  "acuracia_teste": 0.978,
+  "f1_ponderado_teste": 0.9779868236208817,
+  "roc_auc_ovr_teste": 0.9994957849475228,
+  "amostras_treino": 49000,
+  "amostras_validacao": 7000,
+  "amostras_teste": 14000,
+  "n_features": 784,
+  "normalizacao": "pixels / 255.0",
+  "hidden_layer_sizes": [
+    128,
+    64
+  ],
+  "alpha": 0.001,
+  "early_stopping": true,
+  "random_state": 42
+}
